@@ -1,0 +1,6 @@
+content:
+- Theory
+- Making changes in a persistent dictionary
+- The functionality of shelve
+- ' Writeback  parameter'
+- Context manager usage

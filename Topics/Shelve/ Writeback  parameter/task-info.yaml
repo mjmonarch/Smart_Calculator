@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: False is the default value for the parameter.
+- text: '"Writeback" parameter can be set to True or False.'
+- text: To accelerate the closing of a shelf object, "writeback" parameter should
+    be set to True.
+- text: If "writeback" is set to False, mutable entries can only be changed by assignment.
+- text: '"Writeback" parameter is responsible for saving a shelf object on disk.'
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11341#comment
+status: Solved
+record: -1
+custom_name: '"Writeback" parameter'

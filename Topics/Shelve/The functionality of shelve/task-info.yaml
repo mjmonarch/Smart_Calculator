@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <code>shelve</code> is used to create persistent dictionaries and locally
+    store them.
+- text: Stored persistent dictionaries cannot be used later.
+- text: The functionality of a persistent dictionary is mostly the same as of a usual
+    one.
+- text: Any Python object can be used as a key in a persistent dictionary.
+- text: You can print the content of a persistent dictionary by <code>print(my_persistent_dictionary)</code>.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14973#comment
+status: Solved
+record: -1
